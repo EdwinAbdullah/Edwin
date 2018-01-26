@@ -10,11 +10,11 @@ os.system('git pull')
 
 
 for i in num:
+	os.system('git pull')
 	EmptyFile.write("1")
 	os.system('git add --all :/')
 	os.system('git commit -m "adding a 1"')
 	os.system('git push')
-	os.system('sleep 15')
 
 EmptyFile.close()
 
