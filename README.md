@@ -4,9 +4,3 @@
 
 
 [Hello powerpoint](Hello.pptx)
-
-install:
-  - sudo pip install proselint
-
-script: 
-- proselint my_prose.md
