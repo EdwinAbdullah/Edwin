@@ -4,7 +4,7 @@ import os
 
 EmptyFile = open("counter", 'a')
 
-num =range(0,250)
+num =range(0,3)
 
 for i in num:
 	os.system('git pull')
