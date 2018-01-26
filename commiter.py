@@ -16,6 +16,6 @@ for i in num:
 	os.system('git commit -m "adding a 1"')
 	os.system('git push')
 
-	EmptyFile.close()
+EmptyFile.close()
 
 print "You are now commited"
