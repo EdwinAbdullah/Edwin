@@ -3,7 +3,7 @@
 import os
 
 
-num =range(0,200)
+num =range(0,100)
 
 
 
