@@ -3,7 +3,7 @@
 import os
 
 
-num =range(0,100)
+num =range(0,10)
 
 
 
@@ -13,6 +13,6 @@ for i in num:
 	os.system('git commit -m "adding a 1"')
 	os.system('git push')
 
-'counter'.close()
+open("counter", 'a').close()
 
 print "You are now commited"
